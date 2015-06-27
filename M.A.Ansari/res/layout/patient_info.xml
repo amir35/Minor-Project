@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#373">
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:text="Patient&apos;s Info"
+    android:textSize="35sp" />
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:onClick="action"
+    android:text="Check" />
+
+<TextView
+    android:id="@+id/meeting"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/student_id"
+    android:layout_alignTop="@+id/Disease"
+    android:layout_marginTop="54dp"
+    android:text="Last Met On"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<TextView
+    android:id="@+id/Disease"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/button1"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="125dp"
+    android:text="Disease"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<TextView
+    android:id="@+id/name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/mobile"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="14dp"
+    android:text="Name"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<TextView
+    android:id="@+id/student_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/name"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="19dp"
+    android:text="Student ID"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<TextView
+    android:id="@+id/mobile"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/email"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="16dp"
+    android:text="Mobile Number"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<TextView
+    android:id="@+id/email"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignRight="@+id/name"
+    android:layout_centerVertical="true"
+    android:text="Email"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

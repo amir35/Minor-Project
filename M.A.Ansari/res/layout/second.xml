@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#373">
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="22dp"
+    android:text="WELCOME"
+    android:textSize="35sp" />
+
+<Button
+    android:id="@+id/admin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/medicine"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="36dp"
+    android:minHeight="60dp"
+    android:minWidth="200dp"
+    android:onClick="action"
+    android:text="Admin" />
+
+<Button
+    android:id="@+id/doctor"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/admin"
+    android:layout_alignLeft="@+id/admin"
+    android:layout_marginBottom="23dp"
+    android:minHeight="60dp"
+    android:minWidth="200dp"
+    android:onClick="action"
+    android:text="Doctor&apos;s Available" />
+
+<Button
+    android:id="@+id/patient"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/doctor"
+    android:layout_alignLeft="@+id/doctor"
+    android:layout_marginBottom="39dp"
+    android:minHeight="60dp"
+    android:minWidth="200dp"
+    android:onClick="action"
+    android:text="Patient Info" />
+
+<Button
+    android:id="@+id/medicine"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView1"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="22dp"
+    android:minHeight="60dp"
+    android:minWidth="200dp"
+    android:onClick="action"
+    android:text="Take Medicine" />
+
+</RelativeLayout>

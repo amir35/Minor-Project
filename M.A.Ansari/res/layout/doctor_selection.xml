@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#373">
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="22dp"
+    android:text="WELCOME"
+    android:textSize="35sp" />
+
+<Button
+    android:id="@+id/medicine"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView1"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="22dp"
+    android:minHeight="60dp"
+    android:minWidth="200dp"
+    android:onClick="action"
+    android:text="VISITING SPECIALIST" />
+
+<Button
+    android:id="@+id/patient"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/medicine"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="22dp"
+    android:minHeight="60dp"
+    android:minWidth="200dp"
+    android:onClick="action"
+    android:text="DOCTORS OF MA ANSARI HEALTH CENTER" />
+
+<Button
+    android:id="@+id/doctor"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/patient"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="19dp"
+    android:minHeight="60dp"
+    android:minWidth="200dp"
+    android:onClick="action"
+    android:text="DOCTORS FROM FACULTY OF DENTISTRY" />
+
+<Button
+    android:id="@+id/admin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/doctor"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="24dp"
+    android:minHeight="60dp"
+    android:minWidth="200dp"
+    android:onClick="action"
+    android:text="HOMEOPATHIC PHYSICIAN" />
+
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.maapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.maapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.maapp.SecondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name="com.example.maapp.Medicine"
+            android:label="@string/title_activity_medicine" >
+        </activity>
+        <activity
+            android:name="com.example.maapp.Prescription"
+            android:label="@string/title_activity_prescription" >
+        </activity>
+        <activity
+            android:name="com.example.maapp.Patient"
+            android:label="@string/title_activity_patient" >
+        </activity>
+        <activity
+            android:name="com.example.maapp.Patient_info"
+            android:label="@string/title_activity_patient_info" >
+        </activity>
+        <activity
+            android:name="com.example.maapp.Admin"
+            android:label="@string/title_activity_admin" >
+        </activity>
+        <activity
+            android:name="com.example.maapp.Doctor"
+            android:label="@string/title_activity_doctor" >
+        </activity>
+        <activity
+            android:name="com.example.maapp.Update_patient"
+            android:label="@string/title_activity_update_patient" >
+        </activity>
+        <activity
+            android:name="com.example.maapp.Add_patient"
+            android:label="@string/title_activity_add_patient" >
+        </activity>
+        <activity
+            android:name="com.example.maapp.Remove_patient"
+            android:label="@string/title_activity_remove_patient" >
+        </activity>
+        <activity
+            android:name="com.example.maapp.Admin_login"
+            android:label="@string/title_activity_admin_login" >
+        </activity>
+        <activity
+            android:name="com.example.maapp.Change_password"
+            android:label="@string/title_activity_change_password" >
+        </activity>
+        <activity
+            android:name="com.example.maapp.Successful"
+            android:label="@string/title_activity_successful" >
+        </activity>
+        <activity
+            android:name="com.example.maapp.SendSMSActivity"
+            android:label="@string/title_activity_send_sms" >
+        </activity>
+        <activity
+            android:name="com.example.maapp.DoctorSelection"
+            android:label="@string/title_activity_doctor_selection" >
+        </activity>
+        <activity
+            android:name="com.example.maapp.Homeopathic"
+            android:label="@string/title_activity_homeopathic" >
+        </activity>
+        <activity
+            android:name="com.example.maapp.Dentistry"
+            android:label="@string/title_activity_dentistry" >
+        </activity>
+        <activity
+            android:name="com.example.maapp.Ansari"
+            android:label="@string/title_activity_ansari" >
+        </activity>
+    </application>
+
+</manifest>

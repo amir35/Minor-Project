@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#373">
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="22dp"
+    android:text="WELCOME"
+    android:textSize="35sp" />
+
+<Button
+    android:id="@+id/sendsms"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/update"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="24dp"
+    android:minHeight="60dp"
+    android:minWidth="200dp"
+    android:onClick="admin_work"
+    android:text="Send SMS" />
+
+<Button
+    android:id="@+id/update"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView1"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="17dp"
+    android:minHeight="60dp"
+    android:minWidth="200dp"
+    android:onClick="admin_work"
+    android:text="Update Patient&apos;s Info" />
+
+<Button
+    android:id="@+id/add_patient"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/update"
+    android:layout_below="@+id/update"
+    android:layout_marginTop="37dp"
+    android:minHeight="60dp"
+    android:minWidth="200dp"
+    android:onClick="admin_work"
+    android:text="Add Patient" />
+
+<Button
+    android:id="@+id/remove_patient"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/add_patient"
+    android:layout_below="@+id/add_patient"
+    android:layout_marginTop="32dp"
+    android:minHeight="60dp"
+    android:minWidth="200dp"
+    android:onClick="admin_work"
+    android:text="Remove Patient" />
+
+</RelativeLayout>
